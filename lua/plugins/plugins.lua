@@ -21,4 +21,13 @@ return {
 
   -- show "scope"" context at the top
   { "nvim-treesitter/nvim-treesitter-context" },
+
+  ----------------
+  -- Candidates --
+  ----------------
+
+  -- use("tpope/vim-fugitive"),
+  -- use('preservim/nerdcommenter')
+  -- "kylechui/nvim-surround",
+  -- "iamcco/markdown-preview.nvim",
 }
