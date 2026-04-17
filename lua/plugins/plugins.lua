@@ -3,7 +3,7 @@ return {
   -- Disabled --
   --------------
 
-  -- default theme
+  -- the default theme
   { "folke/tokyonight.nvim", enabled = false },
 
   -------------
@@ -22,12 +22,15 @@ return {
   -- show "scope"" context at the top
   { "nvim-treesitter/nvim-treesitter-context" },
 
-  ----------------
-  -- Candidates --
-  ----------------
+  -- use git inside nvim
+  { "tpope/vim-fugitive" },
 
-  -- use("tpope/vim-fugitive"),
-  -- use('preservim/nerdcommenter')
-  -- "kylechui/nvim-surround",
-  -- "iamcco/markdown-preview.nvim",
+  -- manipulate surrounding pairs
+  { "kylechui/nvim-surround" },
+
+  -- easy preview for markdown files
+  { "iamcco/markdown-preview.nvim" },
+
+  -- a simple solution for commenting
+  { "preservim/nerdcommenter" },
 }
