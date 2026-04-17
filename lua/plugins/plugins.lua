@@ -6,6 +6,9 @@ return {
   -- the default theme
   { "folke/tokyonight.nvim", enabled = false },
 
+  -- jump on search matches
+  { "folke/flash.nvim", enabled = false },
+
   -------------
   -- Enabled --
   -------------
@@ -21,9 +24,6 @@ return {
 
   -- show "scope"" context at the top
   { "nvim-treesitter/nvim-treesitter-context" },
-
-  -- use git inside nvim
-  { "tpope/vim-fugitive" },
 
   -- manipulate surrounding pairs
   { "kylechui/nvim-surround" },
