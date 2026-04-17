@@ -9,6 +9,9 @@ return {
   -- jump on search matches
   { "folke/flash.nvim", enabled = false },
 
+  -- autopairs
+  { "nvim-mini/mini.pairs", enabled = false },
+
   -------------
   -- Enabled --
   -------------
