@@ -22,15 +22,6 @@ return {
     },
   },
 
-  -- show "scope"" context at the top
-  { "nvim-treesitter/nvim-treesitter-context" },
-
-  -- manipulate surrounding pairs
-  { "kylechui/nvim-surround" },
-
   -- easy preview for markdown files
   { "iamcco/markdown-preview.nvim" },
-
-  -- a simple solution for commenting
-  { "preservim/nerdcommenter" },
 }
