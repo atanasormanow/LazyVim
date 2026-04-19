@@ -13,5 +13,15 @@ return {
       -- accept suggestion
       ["<C-l>"] = { "select_and_accept" },
     },
+    completion = {
+      menu = {
+        border = "single",
+      },
+      documentation = {
+        window = {
+          border = "single",
+        },
+      },
+    },
   },
 }
