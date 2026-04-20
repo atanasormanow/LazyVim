@@ -21,6 +21,12 @@ vim.keymap.set("", "<tab>", "%")
 -- "exit anyways"
 vim.keymap.set("n", "q:", "<cmd>q<return>")
 
+-- Open terminal
+vim.keymap.set("n", "<leader>t", function() Snacks.terminal() end, { desc = "Terminal" })
+vim.keymap.del("n", "<leader>ft")
+vim.keymap.del("n", "<leader>fT")
+
+
 -- Treesitter incremental selection (using Neovim's built-in functions)
 -- Note: Can't use `an`/`in` directly because mini.ai overrides them
 --
