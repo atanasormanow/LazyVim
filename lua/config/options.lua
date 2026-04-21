@@ -10,3 +10,4 @@ vim.g.autoformat = false
 
 -- Do NOT insert comment on "o"/"O"
 vim.opt.formatoptions:remove({ "o" })
+
